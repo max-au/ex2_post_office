@@ -1,0 +1,8 @@
+[
+{couriers, 10},
+{min_couriers, 4},
+{delivery_min, 1000},
+{delivery_rand, 2000},
+{patience, 20},
+{resign, 60}
+].

@@ -1,0 +1,11 @@
+{application, ex2_post_office,
+ [{description, "Post Office application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {ex2_post_office_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {licenses, ["BSD 3-clause clear"]}
+ ]}.
