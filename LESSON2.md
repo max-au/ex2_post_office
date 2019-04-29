@@ -147,7 +147,7 @@ process treats TCP 'close' request to be graceful shutdown, and
 supervisor does not restart a connection in this case. However when
 connection process crashes for any other reason (invalid user input
 being one of them), supervisor restarts a connection with the same 
-socket, bringind it back to "welcome" line. 
+socket, bringing it back to "welcome" line. 
 
      (experience restart policy: make 2 separate TCP connections, and
       then crash the entire supervisor with crashing one of the 
@@ -236,6 +236,4 @@ application implementing introspection of supervision tree.
     $ rebar3 shell
     $ > observer:start().
 
-
-(image)
-
+![Supervision Tree](observer-sup-tree.png)
